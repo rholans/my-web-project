@@ -1,14 +1,83 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="id">
 <head>
-  <title>Contoh HTML Dasar — Halaman Satu</title>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="styles.css">
-  </head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portofolio Risdam Ananda</title>
+  <link rel="stylesheet" href="style.css">
+</head>
 <body>
-    <h1> hello git!</h1>
-  <h2> hahahahhahahah</h2>
-    <p>tttttt</p>
-    </body>
-    </html>
+  <header>
+    <nav>
+      <h1 class="logo">Risdam<span>Dev</span></h1>
+      <ul class="nav-links">
+        <li><a href="#home">Beranda</a></li>
+        <li><a href="#about">Tentang</a></li>
+        <li><a href="#skills">Keahlian</a></li>
+        <li><a href="#projects">Proyek</a></li>
+        <li><a href="#contact">Kontak</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="home" class="hero">
+    <div class="hero-content">
+      <img src="pp.png" alt="Foto Profil" class="profile-img">
+      <h2>Halo, Saya <span>Risdam Ananda Rholanjiba</span></h2>
+      <p>Mahasiswa Teknik Informatika & Web Developer yang menciptakan solusi digital menarik dan fungsional.</p>
+      <div class="hero-buttons">
+        <a href="#projects" class="btn primary">Lihat Proyek</a>
+        <a href="#" class="btn secondary">Unduh CV</a>
+      </div>
+    </div>
+  </section>
+
+  <section id="about" class="about">
+    <h2>Tentang Saya</h2>
+    <p>
+      Saya seorang Mahasiswa Teknik Informatika di Universitas lampung yang memiliki kegemaran dalam membuat web, UI/UX dan jaringan .
+    </p>
+  </section>
+
+  <section id="skills" class="skills">
+    <h2>Keahlian</h2>
+    <div class="skill-container">
+      <div class="skill-card">HTML5</div>
+      <div class="skill-card">CSS3</div>
+      <div class="skill-card">Cisco</div>
+      <div class="skill-card">Python</div>
+      <div class="skill-card">Figma</div>
+      <div class="skill-card">UI/UX Design</div>
+    </div>
+  </section>
+
+  <section id="projects" class="projects">
+    <h2>Proyek Terbaru</h2>
+    <div class="project-container">
+      <div class="project-card">
+        <h3>Website Portofolio</h3>
+        <p>Website pribadi elegan dengan latar gelap dan animasi halus, dibuat dengan HTML & CSS.</p>
+      </div>
+      <div class="project-card">
+        <h3>Vlan dan DHCP</h3>
+        <p>membuat Vlan dan DHCP yang dapat diakses oleh end device.</p>
+      </div>
+      <div class="project-card">
+        <h3>Desain UI web</h3>
+        <p>Prototipe web portofolio.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="contact">
+    <h2>Kontak Saya</h2>
+    <p>Ingin bekerja sama atau sekadar menyapa? Hubungi saya melalui email!</p>
+    <a href="mailto:risdamjiba@gmail.com" class="btn primary">Kirim Email</a>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Risdam Ananda | Dibuat dengan menggunakan HTML & CSS</p>
+  </footer>
+
+</body>
+</html>
